@@ -1,0 +1,95 @@
+{
+  "model_info": {
+    "name": "LiquidAI/LFM2-1.2B",
+    "architecture": "Lfm2ForCausalLM",
+    "model_type": "lfm2",
+    "vocab_size": 65536,
+    "hidden_size": 2048,
+    "num_layers": 16,
+    "num_attention_heads": 32,
+    "max_position_embeddings": 128000,
+    "license": null,
+    "language": null,
+    "pipeline_tag": null
+  },
+  "repository_info": {
+    "source_url": "https://huggingface.co/LiquidAI/LFM2-1.2B",
+    "downloads": 0,
+    "likes": 0,
+    "created_at": null,
+    "last_modified": null,
+    "description": "HuggingFace model: LiquidAI/LFM2-1.2B"
+  },
+  "model_files": [
+    {
+      "name": "model.safetensors",
+      "size": 2340697936,
+      "size_formatted": "2GB",
+      "type": "safetensors",
+      "isLFS": true,
+      "tensor_count": 148,
+      "sample_tensors": "    - model.embed_tokens.weight: shape=[65536,2048], dtype=BF16\n    - model.embedding_norm.weight: shape=[2048], dtype=BF16\n    - model.layers.0.conv.conv.weight: shape=[2048,1,3], dtype=BF16\n    - model.layers.0.conv.in_proj.weight: shape=[6144,2048], dtype=BF16\n    - model.layers.0.conv.out_proj.weight: shape=[2048,2048], dtype=BF16"
+    }
+  ],
+  "file_summary": {
+    "total_files": 10,
+    "model_files_count": 1,
+    "total_size": 2345548097,
+    "total_size_formatted": "2.18GB",
+    "file_types": {
+      "gitattributes": 1,
+      "license": 1,
+      "md": 1,
+      "jinja": 1,
+      "json": 5,
+      "safetensors": 1
+    }
+  },
+  "extracted_metadata": {
+    "modelFiles": [
+      {
+        "name": "model.safetensors",
+        "size": 2340697936,
+        "size_formatted": "2GB",
+        "type": "safetensors",
+        "isLFS": true,
+        "tensor_count": 148,
+        "sample_tensors": "    - model.embed_tokens.weight: shape=[65536,2048], dtype=BF16\n    - model.embedding_norm.weight: shape=[2048], dtype=BF16\n    - model.layers.0.conv.conv.weight: shape=[2048,1,3], dtype=BF16\n    - model.layers.0.conv.in_proj.weight: shape=[6144,2048], dtype=BF16\n    - model.layers.0.conv.out_proj.weight: shape=[2048,2048], dtype=BF16"
+      }
+    ],
+    "configFiles": [
+      {
+        "name": "config.json",
+        "size": 1000,
+        "size_formatted": "1000B"
+      },
+      {
+        "name": "special_tokens_map.json",
+        "size": 434,
+        "size_formatted": "434B"
+      },
+      {
+        "name": "tokenizer.json",
+        "size": 4732426,
+        "size_formatted": "4MB"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "size": 91509,
+        "size_formatted": "89KB"
+      }
+    ],
+    "totalSize": 2345548097,
+    "totalCount": 1,
+    "fileTypes": {
+      "": 2,
+      ".md": 1,
+      ".jinja": 1,
+      ".json": 5,
+      ".safetensors": 1
+    }
+  },
+  "total_count": 1,
+  "source_url": "https://huggingface.co/LiquidAI/LFM2-1.2B",
+  "generated_at": "2025-07-14T22:12:19.128Z"
+}
