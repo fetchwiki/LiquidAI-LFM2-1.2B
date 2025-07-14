@@ -27,8 +27,19 @@
       "size_formatted": "2GB",
       "type": "safetensors",
       "isLFS": true,
+      "category": "model",
       "tensor_count": 148,
-      "sample_tensors": "    - model.embed_tokens.weight: shape=[65536,2048], dtype=BF16\n    - model.embedding_norm.weight: shape=[2048], dtype=BF16\n    - model.layers.0.conv.conv.weight: shape=[2048,1,3], dtype=BF16\n    - model.layers.0.conv.in_proj.weight: shape=[6144,2048], dtype=BF16\n    - model.layers.0.conv.out_proj.weight: shape=[2048,2048], dtype=BF16"
+      "tensor_info": {
+        "total_tensors": 148,
+        "dtypes": {
+          "BF16": 148
+        },
+        "total_parameters": 1170340608,
+        "layer_info": {
+          "model": 148
+        }
+      },
+      "sample_tensors": "    - model.embed_tokens.weight: shape=[65536,2048], dtype=BF16, params=134,217,728\n    - model.embedding_norm.weight: shape=[2048], dtype=BF16, params=2,048\n    - model.layers.0.conv.conv.weight: shape=[2048,1,3], dtype=BF16, params=6,144\n    - model.layers.0.conv.in_proj.weight: shape=[6144,2048], dtype=BF16, params=12,582,912\n    - model.layers.0.conv.out_proj.weight: shape=[2048,2048], dtype=BF16, params=4,194,304"
     }
   ],
   "file_summary": {
@@ -53,30 +64,89 @@
         "size_formatted": "2GB",
         "type": "safetensors",
         "isLFS": true,
+        "category": "model",
         "tensor_count": 148,
-        "sample_tensors": "    - model.embed_tokens.weight: shape=[65536,2048], dtype=BF16\n    - model.embedding_norm.weight: shape=[2048], dtype=BF16\n    - model.layers.0.conv.conv.weight: shape=[2048,1,3], dtype=BF16\n    - model.layers.0.conv.in_proj.weight: shape=[6144,2048], dtype=BF16\n    - model.layers.0.conv.out_proj.weight: shape=[2048,2048], dtype=BF16"
+        "tensor_info": {
+          "total_tensors": 148,
+          "dtypes": {
+            "BF16": 148
+          },
+          "total_parameters": 1170340608,
+          "layer_info": {
+            "model": 148
+          }
+        },
+        "sample_tensors": "    - model.embed_tokens.weight: shape=[65536,2048], dtype=BF16, params=134,217,728\n    - model.embedding_norm.weight: shape=[2048], dtype=BF16, params=2,048\n    - model.layers.0.conv.conv.weight: shape=[2048,1,3], dtype=BF16, params=6,144\n    - model.layers.0.conv.in_proj.weight: shape=[6144,2048], dtype=BF16, params=12,582,912\n    - model.layers.0.conv.out_proj.weight: shape=[2048,2048], dtype=BF16, params=4,194,304"
       }
     ],
     "configFiles": [
       {
         "name": "config.json",
         "size": 1000,
-        "size_formatted": "1000B"
+        "size_formatted": "1000B",
+        "category": "model",
+        "isLFS": false
+      },
+      {
+        "name": "generation_config.json",
+        "size": 137,
+        "size_formatted": "137B",
+        "category": "generation",
+        "isLFS": false
       },
       {
         "name": "special_tokens_map.json",
         "size": 434,
-        "size_formatted": "434B"
+        "size_formatted": "434B",
+        "category": "other",
+        "isLFS": false
       },
       {
         "name": "tokenizer.json",
         "size": 4732426,
-        "size_formatted": "4MB"
+        "size_formatted": "4MB",
+        "category": "tokenizer",
+        "isLFS": false
       },
       {
         "name": "tokenizer_config.json",
         "size": 91509,
-        "size_formatted": "89KB"
+        "size_formatted": "89KB",
+        "category": "tokenizer",
+        "isLFS": false
+      }
+    ],
+    "codeFiles": [],
+    "documentationFiles": [
+      {
+        "name": "LICENSE",
+        "size": 10644,
+        "size_formatted": "10KB",
+        "type": "License",
+        "isLFS": false
+      },
+      {
+        "name": "README.md",
+        "size": 12283,
+        "size_formatted": "11KB",
+        "type": "README",
+        "isLFS": false
+      }
+    ],
+    "otherFiles": [
+      {
+        "name": ".gitattributes",
+        "size": 1519,
+        "size_formatted": "1KB",
+        "type": "unknown",
+        "isLFS": false
+      },
+      {
+        "name": "chat_template.jinja",
+        "size": 209,
+        "size_formatted": "209B",
+        "type": ".jinja",
+        "isLFS": false
       }
     ],
     "totalSize": 2345548097,
@@ -91,5 +161,5 @@
   },
   "total_count": 1,
   "source_url": "https://huggingface.co/LiquidAI/LFM2-1.2B",
-  "generated_at": "2025-07-14T22:12:19.128Z"
+  "generated_at": "2025-07-14T22:27:44.928Z"
 }
